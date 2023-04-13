@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+
+
+	<title>AudioGPT</title>
+	<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1091.0" data-gr-ext-installed="">
+
+<div class="container" >
+<header role="banner">
+</header>
+<main role="main">
+<article itemscope itemtype="https://schema.org/BlogPosting">
+
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h2 style="text-align: center;">AudioGPT</h2>
+</div>	
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Speech</h3>
+		<div class="table-responsive pt-3">
+			<table class="table table-hover pt-2">
+			<thead>
+			<tr>
+			<th style="text-align: center">Task Name</th>
+			<th style="text-align: center">Inputs</th>
+			<th style="text-align: center">Outputs</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr><td style="text-align: center;vertical-align:middle;width: 800px">Text-To-Speech</td>
+			<td style="text-align: center;vertical-align:middle;width: 800px">Generate a speech with text "here we go".</td>
+			<td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/fd5cf55e.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			</tr>
+			<tr>
+			<td style="text-align: center;vertical-align:middle;width: 800px">Style Transfer</td>
+			<td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/0011_001570.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			<td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/9a40cc94.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			</tr>
+			<tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Speech Recognition</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/fd5cf55e.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Here we go.</td>
+			</tr>
+			<tr>
+			<td style="text-align: center;vertical-align:middle;width: 800px">Speech Enhancement</td>
+			<td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/M05_440C0213_PED_REAL.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			<td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/b03f020c.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			</tr>
+			<tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Speech Separation</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/447c020t_1.2106_422a0112_-1.2106.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/192da007.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			</tr>
+			<tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Mono-to-Binaural</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/fd5cf55e.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/d2449644.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			</tr>
+            </tbody>
+            </table>
+        </div>
+</div>
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Sing</h3>
+        <div class="table-responsive pt-3">
+            <table class="table table-hover pt-2">
+            <thead>
+            <tr>
+            <th style="text-align: center">Task Name</th>
+            <th style="text-align: center">Inputs</th>
+            <th style="text-align: center">Outputs</th>
+            </tr>
+            </thead>
+            <tbody>        
+			<tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Text-To-Sing</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Please generate a piece of singing voice. Text sequence is 小酒窝长睫毛AP是你最美的记号. Note sequence is C#4/Db4 | F#4/Gb4 | G#4/Ab4 | A#4/Bb4 F#4/Gb4 | F#4/Gb4 C#4/Db4 | C#4/Db4 | rest | C#4/Db4 | A#4/Bb4 | G#4/Ab4 | A#4/Bb4 | G#4/Ab4 | F4 | C#4/Db4. Note duration sequence is 0.407140 | 0.376190 | 0.242180 | 0.509550 0.183420 | 0.315400 0.235020 | 0.361660 | 0.223070 | 0.377270 | 0.340550 | 0.299620 | 0.344510 | 0.283770 | 0.323390 | 0.360340.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/2bf90e35.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+            </tbody>
+            </table>
+    </div>
+</div>
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Audio</h3>
+        <div class="table-responsive pt-3">
+            <table class="table table-hover pt-2">
+            <thead>
+            <tr>
+            <th style="text-align: center">Task Name</th>
+            <th style="text-align: center">Inputs</th>
+            <th style="text-align: center">Outputs</th>
+            </tr>
+            </thead>
+            <tbody>    
+			<tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Text-To-Audio</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Generate an audio of a piano playing.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/b973e878.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+			</tr>
+			<tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Audio Inpainting</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/drums-and-music-playing-with-a-man-speaking.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/7cb0d24f.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Image-to-Audio</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="demo/violin.png" width="320" height="240"></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/5d67d1b9.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Sound Detection</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/drums-and-music-playing-with-a-man-speaking.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="demo/915f9a1d.png" width="320" height="100"></td>
+            </tr>
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Target Sound Detection</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/thunder-as-rain-falling-down.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">The thunder happened in this audio from 0.0 to 9.984 seconds.</td>
+            </tr>
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Sound Extraction</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/thunder-as-rain-falling-down.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/fba1621e.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Audio-To-Text</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/a-group-of-sheep-are-baaing.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">The audio is recording of a goat bleating nearby several times.</td>
+            </tr>
+            </tbody>
+            </table>
+    </div>
+</div>
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Face</h3>
+        <div class="table-responsive pt-3">
+            <table class="table table-hover pt-2">
+            <thead>
+            <tr>
+            <th style="text-align: center">Task Name</th>
+            <th style="text-align: center">Inputs</th>
+            <th style="text-align: center">Outputs</th>
+            </tr>
+            </thead>
+            <tbody>   
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Talking Head Synthesis</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="demo/fd5cf55e.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><video width="320" height="240" controls><source src="demo/174e17d2.mp4" type="video/mp4"></video></td>
+            </tr>
+            </tbody>
+            </table>
+    </div>
+</div>
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Image</h3>
+        <div class="table-responsive pt-3">
+            <table class="table table-hover pt-2">
+            <thead>
+            <tr>
+            <th style="text-align: center">Task Name</th>
+            <th style="text-align: center">Inputs</th>
+            <th style="text-align: center">Outputs</th>
+            </tr>
+            </thead>
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Text-To-Image</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Generate an image of a cat.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="demo/6951345c.png" width="300" height="300"></td>
+            </tr>
+			</tbody>
+			</table>
+		</div>
+</div>
+
+<body>
+    <td style="text-align: center;vertical-align:middle;width: 800px"><img src="demo/19451824932.png" width="1240" height="1754"></td>
+    <td style="text-align: center;vertical-align:middle;width: 800px"><img src="demo/19452260913.png" width="1240" height="1754"></td>
+    <td style="text-align: center;vertical-align:middle;width: 800px"><img src="demo/19452340431.png" width="1240" height="1754"></td>
+</body>
+
